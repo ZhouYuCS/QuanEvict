@@ -1,0 +1,38 @@
+[2026-10-23 11:22:03] 测试图（10 张）：['demo_images/universal/0000.png', 'demo_images/universal/0001.png', 'demo_images/universal/0002.png', 'demo_images/universal/0003.png', 'demo_images/universal/0004.png', 'demo_images/universal/0005.png', 'demo_images/universal/0006.png', 'demo_images/universal/0007.png', 'demo_images/universal/0008.png', 'demo_images/universal/0009.png']
+[2026-10-23 11:22:03] 轨迹形态=strafe，blocks=17，回访对=[(6, 8), (5, 9), (4, 10), (3, 11), (2, 12), (1, 13), (0, 14)]
+[2026-10-23 11:22:22] --- 图 1/10: 0000.png ---
+[2026-10-23 11:26:26]   [full_kv] revisit_lpips=0.4962 psnr=10.27 ssim=0.2072 wan=230.96s vae=7.72s
+[2026-10-23 11:27:49]   [flowcache   ] rev_lpips=0.5058 rev_psnr=10.06 all_lpips=0.2601 bank=1848.0MB peak=15.75GiB wan=74.73s vae=7.61s
+[2026-10-23 11:27:50] --- 图 2/10: 0001.png ---
+[2026-10-23 11:31:53]   [full_kv] revisit_lpips=0.3003 psnr=14.04 ssim=0.5014 wan=230.90s vae=7.70s
+[2026-10-23 11:33:17]   [flowcache   ] rev_lpips=0.3498 rev_psnr=12.83 all_lpips=0.1850 bank=1848.0MB peak=15.75GiB wan=74.80s vae=7.63s
+[2026-10-23 11:33:17] --- 图 3/10: 0002.png ---
+[2026-10-23 11:37:21]   [full_kv] revisit_lpips=0.5277 psnr=10.26 ssim=0.0838 wan=230.83s vae=7.70s
+[2026-10-23 11:38:44]   [flowcache   ] rev_lpips=0.5658 rev_psnr=9.42 all_lpips=0.3614 bank=1848.0MB peak=15.75GiB wan=74.82s vae=7.63s
+[2026-10-23 11:38:45] --- 图 4/10: 0003.png ---
+[2026-10-23 11:42:48]   [full_kv] revisit_lpips=0.4381 psnr=14.89 ssim=0.5414 wan=230.88s vae=7.71s
+[2026-10-23 11:44:12]   [flowcache   ] rev_lpips=0.5298 rev_psnr=14.14 all_lpips=0.2392 bank=1848.0MB peak=15.75GiB wan=74.77s vae=7.62s
+[2026-10-23 11:44:12] --- 图 5/10: 0004.png ---
+[2026-10-23 11:48:16]   [full_kv] revisit_lpips=0.2571 psnr=18.23 ssim=0.5237 wan=230.86s vae=7.71s
+[2026-10-23 11:49:40]   [flowcache   ] rev_lpips=0.3028 rev_psnr=17.70 all_lpips=0.1648 bank=1848.0MB peak=15.75GiB wan=74.81s vae=7.63s
+[2026-10-23 11:49:40] --- 图 6/10: 0005.png ---
+[2026-10-23 11:53:44]   [full_kv] revisit_lpips=0.2924 psnr=15.77 ssim=0.4810 wan=230.89s vae=7.71s
+[2026-10-23 11:55:07]   [flowcache   ] rev_lpips=0.3394 rev_psnr=14.81 all_lpips=0.1563 bank=1848.0MB peak=15.75GiB wan=74.85s vae=7.63s
+[2026-10-23 11:55:08] --- 图 7/10: 0006.png ---
+[2026-10-23 11:59:11]   [full_kv] revisit_lpips=0.4249 psnr=12.58 ssim=0.1250 wan=231.01s vae=7.71s
+[2026-10-23 12:00:35]   [flowcache   ] rev_lpips=0.5018 rev_psnr=11.89 all_lpips=0.2853 bank=1848.0MB peak=15.75GiB wan=74.77s vae=7.63s
+[2026-10-23 12:00:35] --- 图 8/10: 0007.png ---
+[2026-10-23 12:04:39]   [full_kv] revisit_lpips=0.4545 psnr=12.14 ssim=0.1400 wan=230.96s vae=7.70s
+[2026-10-23 12:06:03]   [flowcache   ] rev_lpips=0.5137 rev_psnr=11.58 all_lpips=0.3460 bank=1848.0MB peak=15.75GiB wan=75.05s vae=7.63s
+[2026-10-23 12:06:03] --- 图 9/10: 0008.png ---
+[2026-10-23 12:10:07]   [full_kv] revisit_lpips=0.4782 psnr=14.14 ssim=0.4972 wan=230.95s vae=7.71s
+[2026-10-23 12:11:30]   [flowcache   ] rev_lpips=0.4716 rev_psnr=13.66 all_lpips=0.3056 bank=1848.0MB peak=15.75GiB wan=74.90s vae=7.63s
+[2026-10-23 12:11:31] --- 图 10/10: 0009.png ---
+[2026-10-23 12:15:35]   [full_kv] revisit_lpips=0.3979 psnr=15.76 ssim=0.4286 wan=231.03s vae=7.71s
+[2026-10-23 12:16:58]   [flowcache   ] rev_lpips=0.4683 rev_psnr=13.87 all_lpips=0.3024 bank=1848.0MB peak=15.75GiB wan=74.98s vae=7.63s
+[2026-10-23 12:17:06] 
+===== 回访帧对指标（跨图平均）=====
+[2026-10-23 12:17:06]   full_kv     : lpips=0.4067226009709494 psnr=13.808620361135734 ssim=0.3529123374394008 fid=127.189615594974 (n=10/10)
+[2026-10-23 12:17:06]   flowcache   : lpips=0.4548771232366562 psnr=12.995152653331516 ssim=0.3302949980965682 fid=141.10661474628677 (n=10/10)
+[2026-10-23 12:17:06] 结果 JSON 已保存到 outputs_flowcache_budget10k_10img_51f/results.json
+[2026-10-23 12:17:06] 报告已保存到 outputs_flowcache_budget10k_10img_51f/评价报告.md

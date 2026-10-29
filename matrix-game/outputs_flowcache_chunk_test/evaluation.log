@@ -1,0 +1,26 @@
+[2026-10-29 17:29:05] 测试图（1 张）：['demo_images/universal/0000.png']
+[2026-10-29 17:29:05] 轨迹形态=strafe，blocks=34，回访对=[(14, 16), (13, 17), (12, 18), (11, 19), (10, 20), (9, 21), (8, 22), (7, 23), (6, 24), (5, 25), (4, 26), (3, 27), (2, 28), (1, 29), (0, 30)]
+[2026-10-29 17:30:28] --- 图 1/1: 0000.png ---
+[2026-10-29 17:31:27]   [flowcache   ] rev_lpips=0.5888 rev_psnr=10.65 all_lpips=N/A bank=1848.0MB peak=17.59GiB wan=34.60s vae=15.13s
+[2026-10-29 17:31:29] 
+===== 回访帧对指标（跨图平均）=====
+[2026-10-29 17:31:29]   flowcache   : lpips=0.5887523432572682 psnr=10.64709463080278 ssim=0.20364617506663005 fid=290.22428296930286 (n=1/1)
+[2026-10-29 17:31:29] 结果 JSON 已保存到 outputs_flowcache_chunk_test/results.json
+[2026-10-29 17:31:29] 报告已保存到 outputs_flowcache_chunk_test/评价报告.md
+[2026-10-29 18:06:55] 测试图（5 张）：['demo_images/universal/0000.png', 'demo_images/universal/0001.png', 'demo_images/universal/0002.png', 'demo_images/universal/0003.png', 'demo_images/universal/0004.png']
+[2026-10-29 18:06:55] 轨迹形态=strafe，blocks=34，回访对=[(14, 16), (13, 17), (12, 18), (11, 19), (10, 20), (9, 21), (8, 22), (7, 23), (6, 24), (5, 25), (4, 26), (3, 27), (2, 28), (1, 29), (0, 30)]
+[2026-10-29 18:07:10] --- 图 1/5: 0000.png ---
+[2026-10-29 18:08:08]   [flowcache   ] rev_lpips=0.5888 rev_psnr=10.65 all_lpips=N/A bank=1848.0MB peak=17.59GiB wan=34.52s vae=15.11s
+[2026-10-29 18:08:09] --- 图 2/5: 0001.png ---
+[2026-10-29 18:09:07]   [flowcache   ] rev_lpips=0.3871 rev_psnr=13.34 all_lpips=N/A bank=1848.0MB peak=17.59GiB wan=34.48s vae=15.07s
+[2026-10-29 18:09:07] --- 图 3/5: 0002.png ---
+[2026-10-29 18:10:06]   [flowcache   ] rev_lpips=0.5972 rev_psnr=10.19 all_lpips=N/A bank=1848.0MB peak=17.59GiB wan=34.46s vae=15.07s
+[2026-10-29 18:10:06] --- 图 4/5: 0003.png ---
+[2026-10-29 18:11:04]   [flowcache   ] rev_lpips=0.5679 rev_psnr=14.59 all_lpips=N/A bank=1848.0MB peak=17.59GiB wan=34.43s vae=15.07s
+[2026-10-29 18:11:05] --- 图 5/5: 0004.png ---
+[2026-10-29 18:12:03]   [flowcache   ] rev_lpips=0.3668 rev_psnr=17.58 all_lpips=N/A bank=1848.0MB peak=17.59GiB wan=34.49s vae=15.07s
+[2026-10-29 18:12:06] 
+===== 回访帧对指标（跨图平均）=====
+[2026-10-29 18:12:06]   flowcache   : lpips=0.5015555347998937 psnr=13.271653176842017 ssim=0.3485491535067558 fid=176.09045326850236 (n=5/5)
+[2026-10-29 18:12:06] 结果 JSON 已保存到 outputs_flowcache_chunk_test/results.json
+[2026-10-29 18:12:06] 报告已保存到 outputs_flowcache_chunk_test/评价报告.md

@@ -1,0 +1,242 @@
+{
+  "gta_drive": {
+    "n_imgs": 6,
+    "methods": {
+      "fastar_full": {
+        "label": "FAST-AR (TempCache, thr=0.8)",
+        "lpips_mean": 0.24431741986405198,
+        "lpips_std": 0.14206858117324275,
+        "psnr_mean": 27.19730176116026,
+        "psnr_std": 25.187888647479998,
+        "ssim_mean": 0.6458937873937202,
+        "ssim_std": 0.17958695586605763,
+        "fid": 50.14841728551137,
+        "n_frames": 1206
+      },
+      "quanevict": {
+        "label": "QuanEvict",
+        "lpips_mean": 0.18075033086008402,
+        "lpips_std": 0.15150538946446138,
+        "psnr_mean": 38.29317281516861,
+        "psnr_std": 33.54326394812085,
+        "ssim_mean": 0.7170438733612918,
+        "ssim_std": 0.2170077899941856,
+        "fid": 32.80201875928925,
+        "n_frames": 1206
+      },
+      "quanevict_plus": {
+        "label": "QuanEvict+",
+        "lpips_mean": 0.18538592883001914,
+        "lpips_std": 0.15216442636339583,
+        "psnr_mean": 38.20098886317152,
+        "psnr_std": 33.57216822066905,
+        "ssim_mean": 0.7100208863788972,
+        "ssim_std": 0.22058180609715944,
+        "fid": 37.127943374080694,
+        "n_frames": 1206
+      },
+      "worldkv": {
+        "label": "WorldKV (位姿检索 + key-key 压缩)",
+        "lpips_mean": 0.1883820142686926,
+        "lpips_std": 0.16163266854760264,
+        "psnr_mean": 38.07100364001684,
+        "psnr_std": 33.67219247652264,
+        "ssim_mean": 0.7077221895875425,
+        "ssim_std": 0.22339754032991263,
+        "fid": 35.76094720505151,
+        "n_frames": 1206
+      },
+      "flowcache": {
+        "label": "FlowCache (importance-redundancy KV 驱逐)",
+        "lpips_mean": 0.23510827862535594,
+        "lpips_std": 0.1437337315882965,
+        "psnr_mean": 27.42231223858564,
+        "psnr_std": 25.145610094042265,
+        "ssim_mean": 0.6483958341539598,
+        "ssim_std": 0.18083067246892937,
+        "fid": 41.42573677345589,
+        "n_frames": 1206
+      }
+    }
+  },
+  "init_image": {
+    "n_imgs": 32,
+    "methods": {
+      "fastar_full": {
+        "label": "FAST-AR (TempCache, thr=0.8)",
+        "lpips_mean": 0.23949908206253243,
+        "lpips_std": 0.1458847251002394,
+        "psnr_mean": 26.910783313530803,
+        "psnr_std": 25.309798359859855,
+        "ssim_mean": 0.6617025193661007,
+        "ssim_std": 0.16223942235515715,
+        "fid": 19.326473856081922,
+        "n_frames": 6432
+      },
+      "quanevict": {
+        "label": "QuanEvict",
+        "lpips_mean": 0.18005633476560656,
+        "lpips_std": 0.1715965379807657,
+        "psnr_mean": 37.68711920047952,
+        "psnr_std": 33.9763628479343,
+        "ssim_mean": 0.7265416287321282,
+        "ssim_std": 0.20693093960011166,
+        "fid": 13.435236314118862,
+        "n_frames": 6432
+      },
+      "quanevict_plus": {
+        "label": "QuanEvict+",
+        "lpips_mean": 0.1825711154069089,
+        "lpips_std": 0.17197500295708537,
+        "psnr_mean": 37.613447863571615,
+        "psnr_std": 34.00730813517213,
+        "ssim_mean": 0.7228168882707606,
+        "ssim_std": 0.20802753012485753,
+        "fid": 14.390144891498014,
+        "n_frames": 6432
+      },
+      "worldkv": {
+        "label": "WorldKV (位姿检索 + key-key 压缩)",
+        "lpips_mean": 0.19095663542968433,
+        "lpips_std": 0.1791014966153227,
+        "psnr_mean": 37.33242092526557,
+        "psnr_std": 34.18206726565434,
+        "ssim_mean": 0.7158554379193492,
+        "ssim_std": 0.21334118662693352,
+        "fid": 14.881778589829528,
+        "n_frames": 6432
+      },
+      "flowcache": {
+        "label": "FlowCache (importance-redundancy KV 驱逐)",
+        "lpips_mean": 0.19823573090426222,
+        "lpips_std": 0.14927361390245208,
+        "psnr_mean": 28.115461894794592,
+        "psnr_std": 25.04688724636631,
+        "ssim_mean": 0.6858296493781888,
+        "ssim_std": 0.16350911948156457,
+        "fid": 13.591613078955726,
+        "n_frames": 6432
+      }
+    }
+  },
+  "temple_run": {
+    "n_imgs": 6,
+    "methods": {
+      "fastar_full": {
+        "label": "FAST-AR (TempCache, thr=0.8)",
+        "lpips_mean": 0.33241816199265706,
+        "lpips_std": 0.19630911436115334,
+        "psnr_mean": 24.111554185305792,
+        "psnr_std": 26.062928451263932,
+        "ssim_mean": 0.5626839783110626,
+        "ssim_std": 0.20429347941959392,
+        "fid": 101.66561723508839,
+        "n_frames": 1206
+      },
+      "quanevict": {
+        "label": "QuanEvict",
+        "lpips_mean": 0.254772414396761,
+        "lpips_std": 0.21279093287549286,
+        "psnr_mean": 35.25579837839183,
+        "psnr_std": 35.03695979276385,
+        "ssim_mean": 0.6587851203199643,
+        "ssim_std": 0.2433301248348099,
+        "fid": 77.77138677002414,
+        "n_frames": 1206
+      },
+      "quanevict_plus": {
+        "label": "QuanEvict+",
+        "lpips_mean": 0.26033180268851275,
+        "lpips_std": 0.21652596121733445,
+        "psnr_mean": 34.95095613162608,
+        "psnr_std": 35.212933758549184,
+        "ssim_mean": 0.6581400295049199,
+        "ssim_std": 0.2445356397034378,
+        "fid": 80.13047590844165,
+        "n_frames": 1206
+      },
+      "worldkv": {
+        "label": "WorldKV (位姿检索 + key-key 压缩)",
+        "lpips_mean": 0.2610531877515881,
+        "lpips_std": 0.21964701196836442,
+        "psnr_mean": 35.00247719961189,
+        "psnr_std": 35.199448520695114,
+        "ssim_mean": 0.6530739258770919,
+        "ssim_std": 0.24812885217772138,
+        "fid": 78.53090435005751,
+        "n_frames": 1206
+      },
+      "flowcache": {
+        "label": "FlowCache (importance-redundancy KV 驱逐)",
+        "lpips_mean": 0.3066230329459419,
+        "lpips_std": 0.17328929236804352,
+        "psnr_mean": 23.9644463229677,
+        "psnr_std": 26.09752746979536,
+        "ssim_mean": 0.5701546746354,
+        "ssim_std": 0.20889179954545095,
+        "fid": 83.44993394221217,
+        "n_frames": 1206
+      }
+    }
+  },
+  "universal": {
+    "n_imgs": 17,
+    "methods": {
+      "fastar_full": {
+        "label": "FAST-AR (TempCache, thr=0.8)",
+        "lpips_mean": 0.27024984392338863,
+        "lpips_std": 0.15391935436244178,
+        "psnr_mean": 25.635125270730423,
+        "psnr_std": 25.67817115546239,
+        "ssim_mean": 0.5456906656467814,
+        "ssim_std": 0.2320199137958767,
+        "fid": 43.640499797848676,
+        "n_frames": 3417
+      },
+      "quanevict": {
+        "label": "QuanEvict",
+        "lpips_mean": 0.19296093556726335,
+        "lpips_std": 0.16651917738194688,
+        "psnr_mean": 36.78207405850218,
+        "psnr_std": 34.296033160522555,
+        "ssim_mean": 0.6562395623492887,
+        "ssim_std": 0.2637275445351407,
+        "fid": 29.56267439166863,
+        "n_frames": 3417
+      },
+      "quanevict_plus": {
+        "label": "QuanEvict+",
+        "lpips_mean": 0.20082889011572366,
+        "lpips_std": 0.17379870027087355,
+        "psnr_mean": 36.65477428109604,
+        "psnr_std": 34.36430918335708,
+        "ssim_mean": 0.6518323680166267,
+        "ssim_std": 0.26435651129773663,
+        "fid": 32.09510747474801,
+        "n_frames": 3417
+      },
+      "worldkv": {
+        "label": "WorldKV (位姿检索 + key-key 压缩)",
+        "lpips_mean": 0.1992134072925249,
+        "lpips_std": 0.1743858116690148,
+        "psnr_mean": 36.62311708447554,
+        "psnr_std": 34.392953798743605,
+        "ssim_mean": 0.6498627859269418,
+        "ssim_std": 0.2684707455434616,
+        "fid": 31.541213302033757,
+        "n_frames": 3417
+      },
+      "flowcache": {
+        "label": "FlowCache (importance-redundancy KV 驱逐)",
+        "lpips_mean": 0.2356942374349722,
+        "lpips_std": 0.15542212749712897,
+        "psnr_mean": 26.222018829134313,
+        "psnr_std": 25.57117304638269,
+        "ssim_mean": 0.5790799420227738,
+        "ssim_std": 0.23618109352039054,
+        "fid": 33.71821587932862,
+        "n_frames": 3417
+      }
+    }
+  }
+}
